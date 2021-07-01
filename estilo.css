@@ -1,0 +1,233 @@
+body {
+    font-size: 1.1rem;
+    font-weight: 300;
+    background-color: var(--color-grey);
+    color: var(--color-light);
+    letter-spacing: .05rem;
+    
+}
+
+/* Cabecera */
+
+.navbar .logo{
+    width: 106px;
+    height: 106px;
+    margin-right: 35px;
+}
+
+.iconos-redes-header{ 
+    width: 30px;
+    margin: 10px 5px;
+}
+
+.texto-uno{
+    color: orange;
+    font-size: 10px;
+}
+
+.nav-link{
+    color: black;
+}
+
+.navbar-brand{
+    color: black;
+}
+
+.btn-buscar {
+    font-weight: 400;
+    padding: 2%;
+    border-radius: 5rem;
+    min-width: 10rem;
+}
+
+.form-control{
+    width: 200px;
+}
+
+
+/* Carrucel */
+
+.carousel-item {
+    width: 100%;
+    height: 500px;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 5%;
+}
+
+.carousel-item img{
+    width: 50%;
+    height: 100%;
+}
+
+/*Info del lugar*/
+
+.info-lugar{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+.info-lugar h2{
+    margin-top: 3%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.row .card-body img{
+    width: 610px;
+    height: 430px;
+}
+
+/*Tarjetas*/
+
+.row{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+.Nuestros-valores{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.Nuestros-valores img{
+    width: auto;
+    height: auto;
+    padding: 2%;
+}
+
+/*Formulario*/
+
+.register-bg {
+    background-image: url('recursos/img-registro.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    width: 40%;
+}
+
+.btn {
+    font-weight: 400;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    min-width: 10rem;
+    background-color: blue;
+}
+
+.contact-box{
+    margin-bottom: 5%;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 20px;
+    background-color: orange;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .logotipo-footer{
+    background-color: orange;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.letra-footer{
+    background-color: orange;
+}
+
+
+.register-aporte {
+    background-image: url('recursos/img-aporte.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    width: 40%;
+}
+
+/*Registro mandatos*/
+
+.registro-mandatos{
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.titulo-mandatos{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.d-grid{
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.btn-reg{
+    background-color: blue;
+}
+
+/*Tarjetas pacientes informacion*/
+
+.btn-agregar-ficha{
+    background-color: blue;
+    margin-left: 15%;
+}
+
+/*Formulario ficha*/
+
+.formulario-ficha{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    border: white 8px groove;
+}
+
+.formulario-ficha .mb-3{
+    padding-left: 32%;
+}
+
+.mb-3 input{
+    width: 50%;
+}
+
+.mb-3 .form-control{
+    width: 50%;
+}
+
+.texto-form-residente{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.agregar-registro{
+    margin-left: 35%;
+    margin-right: 35%;
+    border: blue 5px solid;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+.weas-registro{
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.btn-2{
+    background-color: blue;
+    color: white;
+}
+
+.btn-2 .btn-text{
+    text-decoration: none;
+    color: white;
+}

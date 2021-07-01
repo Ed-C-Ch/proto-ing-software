@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!--link de estilo CSS-->
+
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>Formulario</title>
+    <link rel="icon" type="image/jpg" href="Recursos/icono-vegetal.png">
+
+</head>
+
+<body>
+
+    <!--Segunda barra-->
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+          <a href="Principal.html">
+              <img class="logo" src="recursos/logo-pagina.jpg" alt="">
+          </a>
+          <a class="navbar-brand" href="Principal.html"></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="flecha-abajo"><img src="recursos/flecha-abajo.png" alt=""></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="Principal.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="fundacion.html">Fundación</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="aporte.html">Aporte</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Registros
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="Registros.html">Mandatos</a></li>
+                        <li><a class="dropdown-item" href="PacientesES.html">Registro entrada/salida residentes</a></li>
+                        <li><a class="dropdown-item" href="FichaR.html">Ficha de residentes</a></li>
+                        <li><a class="dropdown-item" href="ControlIngresos.html">Control de ingresos</a></li>
+                        <li><a class="dropdown-item" href="ControlIngresos.html">Consulta de ingresos</a></li>
+                        <li><a class="dropdown-item" href="HistorialAp.html">Historial de aportes</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Registro insumos
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="RegistroCompras.html">Registro de compras</a></li>
+                        <li><a class="dropdown-item" href="StockDispo.html">Stock disponible</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Opciones
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="Principal.html">Perfil</a></li>
+                        <li><a class="dropdown-item" href="index.html">Salir</a></li>
+                      </ul>
+                  </li>
+              </ul>
+              <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Buscar"
+                      aria-label="Search">
+                  <button class="btn-buscar btn-outline-success" type="submit">Buscar</button>
+                  <a class="logos2" href="#">
+                      <a href="https://www.facebook.com/">
+                          <img class="iconos-redes-header" src="Recursos/icono-facebook.png" alt="Facebook">
+                      </a>
+                      <a href="https://www.instagram.com/">
+                          <img class="iconos-redes-header" src="Recursos/icono-instagram.png" alt="Instagram">
+                      </a>
+                  </a>
+              </form>
+              
+          </div>
+      </div>
+  </nav>
+
+
+    <!--Registros de todo-->
+
+    <div class="registro-mandatos">
+        <div class="titulo-mandatos">
+        <h2>Mandato de aportes.</h2>
+        </div>
+        <a href="AgregarRegistro.html">
+          <button class="btn-reg btn-primary" type="button">Agregar registro</button>
+        </a>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Monto a aportar</th>
+                <th scope="col">Número de tarjeta</th>
+                <th scope="col">Fecha aporte</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>250000</td>
+                <td>1387649785</td>
+                <td>28-04-2020</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>50000</td>
+                <td>6487394512</td>
+                <td>21-01-2021</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>30000</td>
+                <td>5796438156</td>
+                <td>01-06-2021</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>100000</td>
+                <td>7954638147</td>
+                <td>19-05-2021</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>150000</td>
+                <td>976431971</td>
+                <td>06-04-2020</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>25000</td>
+                <td>5794638517</td>
+                <td>28-05-2020</td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>75000</td>
+                <td>9638527412</td>
+                <td>01-11-2020</td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>100000</td>
+                <td>987564235</td>
+                <td>09-11-2020</td>
+              </tr>
+              <tr>
+              <tr>
+                <th scope="row">9</th>
+                <td>150000</td>
+                <td>97512626</td>
+                <td>07-12-2021</td>
+              </tr>
+              <tr>
+                <th scope="row">10</th>
+                <td>75000</td>
+                <td>976482546</td>
+                <td>12-09-2020</td>
+              </tr>
+              <tr>
+                <th scope="row">11</th>
+                <td>50000</td>
+                <td>98541564878</td>
+                <td>25-11-2019</td>
+              </tr>
+              <tr>
+                <th scope="row">12</th>
+                <td>55000</td>
+                <td>9842352644</td>
+                <td>06-10-2019</td>
+              </tr>
+              <tr>
+                <th scope="row">13</th>
+                <td>100000</td>
+                <td>98954612654</td>
+                <td>07-12-2020</td>
+              </tr>
+              <tr>
+                <th scope="row">14</th>
+                <td>150000</td>
+                <td>9756156449</td>
+                <td>16-12-2019</td>
+              </tr>
+              <tr>
+                <th scope="row">15</th>
+                <td>25000</td>
+                <td>97854136544</td>
+                <td>01-11-2020</td>
+              </tr>
+              <tr>
+                <th scope="row">16</th>
+                <td>35000</td>
+                <td>9756456452</td>
+                <td>05-04-2021</td>
+              </tr>
+              <tr>
+                <th scope="row">17</th>
+                <td>54000</td>
+                <td>5648923165</td>
+                <td>09-01-2020</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+
+   
+    <!--Botones-->
+
+    <div class="d-grid gap-2 d-md-block">
+        <a href="HistorialAp.html">
+          <button class="btn-reg btn-primary" type="button">Historial de aportes</button>
+        </a>
+      </div>
+
+    <!--Ultima linea-->
+
+    <footer>
+        <img class="logotipo-footer" src="Recursos/logo-pagina.jpg" alt="">
+        <br>
+        <img class="iconos-redes" src="Recursos/tblanco.png" alt="">
+        <img class="iconos-redes" src="Recursos/fblanco.png" alt="">
+        <img class="iconos-redes" src="Recursos/iclanco.png" alt="">
+
+        <p class="letra-footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deserunt officiis at
+            doloribus
+            veritatis <br>maiores esse debitis distinctio? Doloribus corrupti repudiandae modi voluptatibus nesciunt!
+            Quos,
+            quia? Facere veniam repellat similique!</p>
+    </footer>
+
+
+
+    <!--No pasar de aquí-->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

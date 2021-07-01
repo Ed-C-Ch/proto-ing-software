@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!--link de estilo CSS-->
+
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>Inicio</title>
+    <link rel="icon" type="image/jpg" href="Recursos/icono-vegetal.png">
+</head>
+
+<body>
+
+    
+    <!--Segunda barra-->
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a href="Principal.html">
+                <img class="logo" src="recursos/logo-pagina.jpg" alt="">
+            </a>
+            <a class="navbar-brand" href="Principal.html"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="flecha-abajo"><img src="recursos/flecha-abajo.png" alt=""></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Principal.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="fundacion.html">Fundación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="aporte.html">Aporte</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Registros
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="Registros.html">Mandatos</a></li>
+                          <li><a class="dropdown-item" href="PacientesES.html">Registro entrada/salida residentes</a></li>
+                          <li><a class="dropdown-item" href="FichaR.html">Ficha de residentes</a></li>
+                          <li><a class="dropdown-item" href="ControlIngresos.html">Control de ingresos</a></li>
+                          <li><a class="dropdown-item" href="ControlIngresos.html">Consulta de ingresos</a></li>
+                          <li><a class="dropdown-item" href="HistorialAp.html">Historial de aportes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Registro insumos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="RegistroCompras.html">Registro de compras</a></li>
+                          <li><a class="dropdown-item" href="StockDispo.html">Stock disponible</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Opciones
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="Principal.html">Perfil</a></li>
+                          <li><a class="dropdown-item" href="index.html">Salir</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar"
+                        aria-label="Search">
+                    <button class="btn-buscar btn-outline-success" type="submit">Buscar</button>
+                    <a class="logos2" href="#">
+                        <a href="https://www.facebook.com/">
+                            <img class="iconos-redes-header" src="Recursos/icono-facebook.png" alt="Facebook">
+                        </a>
+                        <a href="https://www.instagram.com/">
+                            <img class="iconos-redes-header" src="Recursos/icono-instagram.png" alt="Instagram">
+                        </a>
+                    </a>
+                </form>
+                
+            </div>
+        </div>
+    </nav>
+
+
+    <form class="agregar-registro">
+        <div class="weas-registro">
+            <h2>Agregar registro.</h2>
+            <div>
+            <label for="">Monto a aportar </label>
+            </div>
+            <input type="text">
+            <div>
+                <label for="">Número de tarjeta</label>
+            </div>
+            <input type="text">
+            <div>
+                <label for="">Fecha aporte</label>
+            </div>
+            <input type="date">
+            <div>
+                <button>Enviar.</button>
+            </div>
+        </div>
+    </form>
+
+    <!--Ultima linea-->
+
+    <footer>
+        <img class="logotipo-footer" src="Recursos/logo-pagina.jpg" alt="">
+        <br>
+        <img class="iconos-redes-header" src="Recursos/icono-facebook.png" alt="">
+        <img class="iconos-redes-header" src="Recursos/icono-instagram.png" alt="">
+
+        <p class="letra-footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deserunt officiis at
+            doloribus veritatis <br>maiores esse debitis distinctio? Doloribus corrupti repudiandae modi voluptatibus
+            nesciunt! Quos, quia? Facere veniam repellat similique!</p>
+
+    </footer>
+    
+
+    <!--No pasar de aquí-->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
